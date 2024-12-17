@@ -4,7 +4,7 @@ import InputField from "../../Components/InputComponents";
 import styles from "./addAssign.module.css";
 import {addEmail} from "../../Services/auth";
 import CustomModal from "../../Components/CustomModal";
-import { AppContext } from "../../context/userContext";
+import { AppContext } from "../../Context/userContext";
 
 function AddAssignPeoplePopUp({screen,onCancel}){
 

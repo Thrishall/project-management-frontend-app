@@ -8,7 +8,7 @@ import CustomButton from '../ButtonComponent';
 import DropdownBox from '../DropdownBox';
 import CustomModal from '../customModal';
 import LogoutDeleteModal from '../../Pages/PopUpModal/logoutDeleteModal';
-import { AppContext } from '../../context/userContext';
+import { AppContext } from '../../Context/userContext';
 
 // Action Component
 const ActionComponent = ({ taskInfo, onDeleteTask, id, onClickEdit }) => {

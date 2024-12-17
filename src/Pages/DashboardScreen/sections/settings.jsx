@@ -3,7 +3,7 @@ import { InputTextField } from "../../../Constant/inputTextField";
 import InputField from "../../../Components/InputComponents";
 import CustomButton from "../../../Components/ButtonComponent";
 import { useContext, useState, useEffect } from "react";
-import { AppContext } from "../../../context/userContext";
+import { AppContext } from "../../../Context/userContext";
 import { getUpdatedUser, handleLogout, updateUser } from "../../../Services/auth";
 import { useNavigate } from "react-router-dom";
 

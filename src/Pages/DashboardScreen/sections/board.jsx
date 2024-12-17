@@ -11,7 +11,7 @@ import AddAssignPeoplePopUp from "../../PopUpModal/addAssignModal";
 import {getAllTask, getUpdatedUser} from "../../../Services/auth";
 import DropdownBox from "../../../Components/dropDownBox";
 import { boardDayFilterOptions } from "../../../Constant/dashboard";
-import { AppContext } from "../../../context/userContext";
+import { AppContext } from "../../../Context/userContext";
 import { defaultDateFormat } from "../../../Utils/helper";
 
 const Board = ()=>{
