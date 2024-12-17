@@ -1,0 +1,28 @@
+.custom-button {
+    font-family: Open Sans;
+    border: none;
+    padding: 9px;
+    border-radius: 50px;
+    background-color: transparent;
+    letter-spacing: 1px;
+    max-width: 385px;
+    width: 100%;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.custom-button.primary {
+    background-color: #17A2B8;
+    color: #fff;
+}
+
+.custom-button.outline {
+    border: 1px solid #17A2B8;
+    color: #17A2B8;
+}
+
+.custom-button.danger {
+    border: 1px solid #CF3636;
+    color: #CF3636;
+}

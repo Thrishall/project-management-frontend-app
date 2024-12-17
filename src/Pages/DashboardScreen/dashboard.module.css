@@ -1,0 +1,4 @@
+.board-section {
+    width: calc(100vw - 250px);
+    height: 100vh;
+}

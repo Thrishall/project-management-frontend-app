@@ -1,0 +1,27 @@
+.logout-modal {
+    width: 350px;
+    height: 215px;
+    background-color: #fff;
+    padding: 25px 20px 25px 20px;
+    border-radius: 11px;
+}
+
+.logout-modal > p {
+    font-family: Noto Sans;
+    font-size: 14px;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.logout {
+    margin-bottom: 15px;
+    border-radius: 12px;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19px;
+    text-align: center;
+    padding: 15px;
+
+}

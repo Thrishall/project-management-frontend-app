@@ -1,0 +1,45 @@
+.side-bar{
+    width: 250px;
+    height: 100vh;
+    border: 1.5px solid #EDF5FE;
+    padding-top: 30px;
+    position: relative;
+}
+
+.sidebar-element {
+    width: 100%;
+    gap: 10px;
+    align-items: center;
+    margin-bottom: 5px;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    color: #707070;
+    padding: 10px 50px 10px 50px;
+}
+
+.imgContainer {
+    width: 25px;
+    height: 25px;
+}
+
+.analytics:hover , .board:hover , .logout:hover , .settings:hover {
+    background-color: #4391ED1A;
+    cursor: pointer;
+}
+
+.promanage {
+    font-weight: 700;
+    color: #000;
+}
+
+.board {
+    color: #000;
+}
+
+.logout {
+    position: absolute;
+    bottom: 40px;
+}
+

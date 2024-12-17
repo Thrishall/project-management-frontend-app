@@ -1,0 +1,33 @@
+.setting-section {
+    padding: 38px;
+}
+
+.setting-section > h1 {
+    font-family: Open Sans;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 29.96px;
+    color: #000;
+    margin-bottom: 25px;
+}
+
+.setting-section form .input-form {
+    margin-bottom: 18px;
+}
+
+.setting-section form {
+    margin-bottom: 35px;
+    width: 385px;
+}
+
+.update-btn {
+    margin-bottom: 20px;
+}
+
+.setting-section > p {
+    font-size: 15px;
+    font-weight: 400;
+    color: #FF0000;
+    width: 390px;
+    text-align: center;
+}

@@ -1,0 +1,76 @@
+.main {
+    width: 100vw;
+    height: 100vh;
+    font-family: Open sans;
+}
+
+.main .leftSection {
+    width: 60%;
+    height: 100%;
+    background-color:#17A2B8;
+    color: #fff;
+    backdrop-filter: blur(33.07671356201172px)
+}
+
+.main .leftSection .bannerContainer {
+    width: 200px;
+    height: 200px;
+    position: relative; 
+}
+  
+.main .leftSection .bannerContainer .backImage {
+    width: 210px;
+    height: 210px;
+    position: absolute;
+    top: -40px;
+    left: 0;
+    background-color: #317F8B; 
+    border-radius: 50%;
+}
+  
+.main .leftSection .bannerContainer img {
+    position: relative; 
+    z-index: 2;
+}
+  
+.main .leftSection .welcome-text {
+    font-size: 33.08px;
+    font-weight: 600;
+    margin-top: 25px;
+}
+
+.main .leftSection span {
+    font-size: 17px;
+    font-weight: 400;
+}
+
+.main .rightSection {
+    width: 40%;
+    height: 100%;
+    font-family: Open Sans;
+    gap: 20px;
+}
+
+.main .rightSection >h1 {
+    font-size: 28px;
+    font-weight: 600;
+    color: #343434;
+    margin-bottom: 20px;
+}
+
+.main .rightSection > p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #828282;
+}
+
+.main .rightSection .form-field .input-field {
+    margin-bottom: 12px;
+}
+
+.main .rightSection .form-field .input-field .error {
+    font-size: 13px;
+    font-weight: 400;
+    color: #FF0000;
+    width: 390px;
+}

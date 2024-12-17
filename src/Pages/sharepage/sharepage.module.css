@@ -1,0 +1,135 @@
+.share-page-section {
+    width: 100vw;
+    height: 100vh;
+}
+
+.share-page-section .header {
+    width: 100%;
+    height: 10%;
+    gap: 10px;
+    padding-left: 30px;
+}
+
+.share-page-section .header .imgContainer {
+    width: 23px;
+}
+
+.share-page-section .header > h1 {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: left;
+    color: #000;
+}
+
+.share-page-section section {
+    width: 100%;
+    font-family: Poppins;
+    font-weight: 500;
+    padding: 20px;
+}
+
+.share-page-section section .task-section {
+    max-width: 654px;
+    width: 100%;
+    max-height: 500px;
+    height: auto;
+    border: 2px solid #EDF5FE;
+    border-radius: 12px;
+    padding: 25px;
+}
+
+.share-page-section section .task-section .priority-section {
+    gap: 5px;
+    margin-bottom: 10px;
+}
+
+.share-page-section section .task-section .priority-section .priority-icon {
+    width: 8px;
+    height: 8px;
+    border-radius: 50px;
+    background-color: red;
+}
+
+.share-page-section section .task-section .priority-section > p {
+    font-size: 10px;
+    color: #707070;
+}
+
+.share-page-section section .task-section > h1 {
+    font-size: 22px;
+    color: #000;
+    margin-bottom: 20px;
+}
+
+.share-page-section section .task-section .checklist-text {
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 13px;
+}
+
+.checklist-section{
+    margin-bottom: 12px;
+    max-height: 300px;
+    height: auto;
+    overflow-y: auto;
+}
+
+.checklist-section::-webkit-scrollbar {
+    width: 8px
+}
+.checklist-section::-webkit-scrollbar-track {
+  background: #D6EAF4;
+  border-radius: 10px;
+}
+.checklist-section::-webkit-scrollbar-thumb {
+  background: #9cb7c5;
+  border-radius: 10px;
+}
+
+.checklists {
+    width: 100%;
+    border: 1px solid #E2E2E2;
+    border-radius: 12px;
+    padding: 10px;
+    gap:10px;
+    margin-bottom: 10px;
+}
+
+.checklists input[type = "checkbox"] {
+    width: 15px;
+}
+
+.checklists label {
+    font-family: Inter;
+    color: #000;
+    width: 100%;
+}
+
+.due-date-section {
+    gap: 10px;
+}
+
+.due-date-section > p {
+    font-size: 14px;
+}
+
+.due-date {
+    background-color: #CF3636;
+    color: #fff;
+    border-radius: 8px;
+    font-family: Poppins;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 21px;
+    text-align: center;
+    padding: 5px 8px 5px 8px;
+}
+
+@media (max-width: 400px) {
+    .share-page-section section .task-section {
+        padding: 20px 10px;
+    }
+}

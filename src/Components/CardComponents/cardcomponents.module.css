@@ -1,0 +1,208 @@
+.card {
+    width: 360px;
+    height: 100%;
+    background-color: #EEF2F5;
+    border-radius: 10px;
+    padding: 15px;
+    gap: 10px;
+    overflow-y: auto;
+}
+
+.card::-webkit-scrollbar {
+    width: 8px
+}
+.card::-webkit-scrollbar-track {
+  background: #D6EAF4;
+  border-radius: 10px;
+}
+.card::-webkit-scrollbar-thumb {
+  background: #9cb7c5;
+  border-radius: 10px;
+}
+
+.card .card-header {
+    width: 100%;
+    height: 35px;
+    justify-content: space-between;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    color: #000;
+}
+
+.card .card-header .iconConatiner{
+    gap: 20px;
+}
+
+.card .card-header .collapseIconConatiner {
+    width: 20px;
+}
+
+.plus{
+    width: 15px;
+    cursor: pointer;
+}
+
+.card-section {
+    width: 100%;
+    height: auto;
+    background-color: #fff;
+    border-radius: 22px;
+    padding: 13px;
+    font-family: Poppins;
+}
+
+.priority {
+    gap: 5px;
+}
+
+.priority-dot {
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+}
+
+.priority-text {
+    font-size: 9px;
+    font-weight: 500;
+    line-height: 12px;
+    color: #707070;
+}
+
+.assignee {
+    background-color: #FFEBEB;
+    border-radius: 50px;
+    font-family: DM Sans;
+    font-size: 8px;
+    padding: 5px;
+    font-weight: 400;
+    line-height: 9.11px;
+}
+
+.edit-icon {
+    width: 16px;
+    cursor: pointer;
+    position: relative;
+}
+
+.card-section > h2 {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px;
+    margin-bottom: 10px;
+}
+
+.checklist {
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16.94px;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.dropdown-btn {
+    width: 15px;
+    height: 15px;
+}
+.status-buttons {
+    display: flex;
+    gap: 5px;
+    width: 68%;
+}
+
+.status-btn {
+    width: 100%;
+    background-color:#EEECEC;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    font-size: 9px;
+    font-weight: 500;
+    color: #767575;
+    font-family: Poppins;
+}
+
+.check-list-detail {
+    height: 0;
+    overflow: hidden;
+    transition: all 0.5s ease;
+    margin-bottom: 10px;
+}
+.check-list-detail.show-info {
+    height: auto;
+}
+
+.card-footer {
+    justify-content: space-between;
+}
+
+.due-date {
+    font-family: Poppins;
+    font-size: 10px;
+    font-weight: 500;
+    line-height: 12px;
+    color: #5A5A5A;
+    background-color: #DBDBDB;
+    padding: 8px;
+    border-radius: 8px;
+}
+
+
+
+
+.task-title {
+    display: -webkit-box !important;
+    line-clamp: 2 !important;
+    -webkit-line-clamp: 2 !important;
+    -webkit-box-orient: vertical !important;
+    overflow: hidden !important;
+    text-overflow: ellipsis !important;
+    white-space: normal !important;
+    max-height: 3em !important;
+    line-height: 1.5 !important;
+}
+
+
+.check-list-detail .checklist-text{
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.check-list-detail .checklist-status{
+    width: 13px;
+    height: 12px;
+}
+
+.check-list-detail .checklist-status:checked {
+    accent-color: #17A2B8;
+}
+
+.check-list-detail .checklist-items {
+    justify-self: self-start;
+    gap: 5px;
+    border: 1px solid #E2E2E2;
+    width: 100%;
+    padding: 7px 10px 7px 10px;
+    border-radius: 12px;
+    margin-bottom: 7px;
+}
+
+
+.copy-link-btn {
+    padding: 15px 23px;
+    position: fixed;
+    top: 14px;
+    right: 20px;
+    z-index: 1000;
+    width: 200px;
+    border-radius: 12px;
+    border: 1px solid #48C1B5;
+    background-color: #F6FFF9;
+    box-shadow: 0px 4px 16px 0px #100B2714;
+    font-family: Poppins !important;
+    font-weight: 600;
+    color: #27303A !important
+}

@@ -1,0 +1,278 @@
+.createtask-section {
+    width: 666px;
+    height: 550px;
+    border-radius: 22px;
+    background-color: #fff;
+    padding: 25px;
+    gap: 8px;
+    position: relative;
+}
+
+.createtask-section > h1 , .createtask-section .input-task-field input , .priority-section > h1 , .assign-section > h1 , .assign-section .add-assignie input {
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 500;
+    color: #000;
+}
+
+.input-task-field , .add-assignie {
+    border: 1px solid #E2E2E2;
+    box-shadow: 0px 1px 2px 0px #4D40551A;
+    border-radius: 5px;
+}
+
+.input-task-field input , .add-assignie input {
+    font-weight: 400;
+    color: #9B959F;
+    padding: 2px 5px 2px 5px;
+}
+
+.mandatory-icon {
+    color: #FF0000;
+}
+
+.priority-section {
+    gap: 15px;
+    margin-top: 5px;
+}
+
+.radio-btn-conatiner {
+    border: 1px solid #E2E2E2;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.radio-btn-section {
+    gap: 10px;
+}
+
+.radio-btn-conatiner input[type = "radio"] {
+    display: none
+}
+
+.high-priority-icon , .moderate-priority-icon , .low-priority-icon {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+}
+
+.high-priority-icon {
+    background-color: #FF2473;
+}
+
+.moderate-priority-icon {
+    background-color: #18B0FF;
+}
+
+.low-priority-icon {
+    background-color: #63C05B;
+}
+
+.radio-btn-conatiner .label {
+    gap: 8px;
+    height: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.radio-btn-conatiner .label {
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 500;
+    color: #767575
+}
+
+.radio-btn-conatiner input[type="radio"]:checked + label {
+    background-color: #EEECEC;
+}
+
+.assign-section {
+    margin-top: 10px;
+}
+
+.assign-section > h1 {
+    width: 100px;
+}
+
+.assign-section-right {
+    width: 80%;
+    position: relative;
+}
+
+.checklist-text {
+    margin-top: 5px;
+}
+
+.checklist-section {
+    margin-top: 5px;
+    gap: 7px;
+    width: 100%;
+    max-height: 180px;
+    height: auto;
+    overflow-y: auto;
+}
+
+.checklist-section::-webkit-scrollbar {
+    width: 8px;
+}
+.checklist-section::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 10px;
+}
+.checklist-section::-webkit-scrollbar-thumb {
+  background: #9cb7c5;
+  border-radius: 10px;
+}
+.checklist-section::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+.addChecklist-section {
+    width: 100%;
+    padding: 8px 10px 8px 10px;
+    border: 1px solid #E2E2E2;
+    border-radius: 12px;
+}
+
+.addNew-text {
+    gap: 5px;
+    cursor: pointer;
+    margin-top: 5px;
+}
+
+.addNew-text p {
+    font-family: Inter;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 19.36px;
+    text-align: left;
+    color: #767575;
+}
+
+.plus-icon{
+    width: 12px;
+}
+
+.input-section {
+    width: 100%;
+    gap: 8px;
+}
+
+.check-box{
+    width: 15px;
+    accent-color: #17A2B8;
+}
+
+.delete-icon {
+    width: 22px;
+    height: 22px;
+}
+
+.addtask-section {
+    border: none;
+    outline: none;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    color: #828282;
+    width: 100%;
+}
+
+.btn-section{
+    gap: 8px;
+}
+
+.cancel , .save {
+    border-radius: 12px;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19px;
+    text-align: center;
+    width: 170px;
+}
+
+.footer-section {
+    gap: 83px;
+    position: absolute;
+    bottom: 25px;
+}
+
+.date {
+    width: 185px;
+    height: 45px;
+    border-radius: 12px;
+    border: 1px solid #E2E2E2;
+    box-shadow: 0px 2px 12px 0px #82698C33;
+    color: #707070;
+    position: relative;
+}
+.date input[type="date"] {
+    visibility: hidden;
+}
+.due-date {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+
+.error {
+    font-size: 13px;
+    font-weight: 400;
+    color: #FF0000;
+    width: calc(100% - 50px);
+    text-align: center;
+    position: absolute;
+    bottom: 80px;
+}
+
+.assignie-list-section {
+    position: absolute;
+    gap: 8px;
+    top: 100%;
+    right: 0;
+    width: 100%;
+    border: 1px solid #7E7A7A14;
+    padding: 8px 10px;
+}
+
+.assignie-list {
+    justify-content: space-between;
+    background-color: #fff;
+    border-radius: 4px;
+}
+
+.left-section {
+    gap: 15px;
+}
+
+.short-name {
+    background-color: #FFEBEB;
+    width: 37px;
+    height: 37px;
+    border-radius: 50px;
+    font-family: DM Sans;
+    font-size: 17px;
+    font-weight: 400;
+}
+
+.email {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    color: #20102B;
+}
+
+.assign-btn {
+    border: 1px solid #E2E2E2;
+    width: 154px;
+    padding: 5px;
+    border-radius: 8px;
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 500;
+    color: #767575
+}

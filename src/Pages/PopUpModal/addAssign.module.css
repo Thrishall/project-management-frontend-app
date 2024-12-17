@@ -1,0 +1,71 @@
+.added-people {
+    width: 665px;
+    height: 284px;
+    border-radius: 10.91px;
+    background-color: #fff;
+    padding: 30px;
+}
+
+.added-people > p {
+    margin-bottom: 30px;
+    font-family: Noto Sans;
+    font-size: 23px;
+    font-weight: 600;
+    line-height: 27.24px;
+    color: #000;
+}
+
+.btn-section {
+    gap: 15px;
+    width: 100%;
+}
+
+.addPeople-text {
+    font-family: Noto Sans;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 27.24px;
+    color: #000;
+    margin-bottom: 30px;
+    width: 100%;
+    text-align: start;
+    padding-left: 15px;
+}
+
+.add-people {
+    border: 1px solid #767575;
+    border-radius: 10px;
+}
+
+.add-people input {
+    font-family: Noto Sans;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 27.24px;
+    color: #00000080;
+    padding: 4px;
+}
+
+.input-section {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.input-section .error-text {
+    font-size: 13px;
+    font-weight: 400;
+    color: #FF0000;
+    padding-left: 5px;
+}
+
+.logout {
+    padding: 13px 4px 13px 4px;
+    border-radius: 12px;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19px;
+    text-align: center;
+    box-shadow: 0px 2px 12px 0px #82698C33;
+    margin-top: 12px;
+}

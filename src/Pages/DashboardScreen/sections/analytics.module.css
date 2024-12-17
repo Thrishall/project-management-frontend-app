@@ -1,0 +1,52 @@
+.analytics-element {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.analytics-element > p{
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 27.24px;
+}
+
+.text-conatiner {
+    gap: 10px;
+}
+
+.text-conatiner >p {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24.51px;
+}
+
+.dot {
+    width: 10px;
+    height: 10px;
+    background-color: #90C5CC;
+    border-radius: 50%;
+}
+
+.analytics {
+    padding: 38px;
+    font-family: Open Sans;
+    color: #000;
+}
+
+.analytics > h1 {
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 29.96px;
+    margin-bottom: 30px;
+}
+
+.analyticsContainer {
+    gap: 30px;
+}
+
+.left-section,.right-section {
+    background-color: #F9FCFF;
+    border-radius: 12px;
+    width: 450px;
+    padding: 40px 30px 40px 30px;
+
+}
