@@ -1,10 +1,10 @@
 import styles from "./sidebar.module.css";
-import { sideMenuList } from "../../Constant/sidebarelement";
+import { sideMenuList } from "../../Constant/sideBarElement";
 import { useNavigate } from "react-router-dom";
 import { useState } from "react";
 import CustomModal from "../CustomModal";
 import LogoutDeleteModal from "../../Pages/PopUpModal/logoutDeleteModal";
-import { handleLogout } from "../../services/auth";
+import { handleLogout } from "../../Services/auth";
 
 function SideBar({screen}){
 

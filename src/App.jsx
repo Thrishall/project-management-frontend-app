@@ -1,7 +1,7 @@
 import { BrowserRouter,Routes,Route } from "react-router-dom";
 import LoginRegistrationScreen from "./Pages/LoginRegistrationScreen";
 import Dashboard from "./Pages/DashboardScreen";
-import AppContextProvider from "./Context/userContext";
+import AppContextProvider from "./context/userContext";
 import ShareTask from "./Pages/sharepage/sharepage";
 
 
