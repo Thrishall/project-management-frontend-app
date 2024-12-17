@@ -3,7 +3,7 @@ import styles from './cardcomponents.module.css';
 import downArrow from "../../Assets/dropDown.png";
 import editIcon from "../../Assets/EditIcon.png";
 import { dotColor, taskActionList, visibleProgressType } from "../../Constant/dashboard";
-import { beautifyDate, compareDates } from "../../utils/helper";
+import { beautifyDate, compareDates } from "../../Utils/helper";
 import CustomButton from '../ButtonComponent';
 import DropdownBox from '../DropdownBox';
 import CustomModal from '../CustomModal';
