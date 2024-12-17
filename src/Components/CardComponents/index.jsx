@@ -2,7 +2,7 @@ import styles from "./cardcomponents.module.css";
 import collapseIcon from "../../Assets/Collapse.png"
 import { useState } from "react";
 import CustomModal from "../CustomModal";
-import CreateTask from "../../Pages/PopUpModal/createtaskmodal";
+import CreateTask from "../../Pages/PopUpModal/createTaskModal";
 import { deleteTask, updateTask } from "../../Services/auth";
 import TaskComponent from "./taskComponent";
 
