@@ -1,12 +1,12 @@
 import { useEffect, useState, useContext } from 'react';
 import styles from './cardcomponents.module.css';
 import downArrow from "../../Assets/dropDown.png";
-import editIcon from "../../Assets/editIcon.png";
+import editIcon from "../../Assets/EditIcon.png";
 import { dotColor, taskActionList, visibleProgressType } from "../../Constant/dashboard";
 import { beautifyDate, compareDates } from "../../utils/helper";
 import CustomButton from '../ButtonComponent';
 import DropdownBox from '../DropdownBox';
-import CustomModal from '../customModal';
+import CustomModal from '../CustomModal';
 import LogoutDeleteModal from '../../Pages/PopUpModal/logoutDeleteModal';
 import { AppContext } from '../../Context/userContext';
 
