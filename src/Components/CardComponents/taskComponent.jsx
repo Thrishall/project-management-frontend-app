@@ -5,7 +5,7 @@ import editIcon from "../../Assets/EditIcon.png";
 import { dotColor, taskActionList, visibleProgressType } from "../../Constant/dashboard";
 import { beautifyDate, compareDates } from "../../Utils/helper";
 import CustomButton from '../ButtonComponent';
-import DropdownBox from '../DropdownBox';
+import DropdownBox from '../dropdownBox';
 import CustomModal from '../CustomModal';
 import LogoutDeleteModal from '../../Pages/PopUpModal/logoutDeleteModal';
 import { AppContext } from '../../Context/userContext';
